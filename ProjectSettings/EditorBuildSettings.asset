@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/CameraImage.unity
     guid: e769916924fd3814ab1d9474de816b22
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Check Support.unity
     guid: cf67ab53e5ff241dfa61608222d82109
   - enabled: 0
@@ -62,7 +62,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ImageTracking/ImageTracking.unity
     guid: e0b018a3c3b5cfd4c8e316706ec0a18c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LightEstimation/LightEstimation.unity
     guid: 2f0cbc82480584c258f99f0d9e4ba302
   - enabled: 0
