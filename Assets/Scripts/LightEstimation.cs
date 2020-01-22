@@ -8,6 +8,7 @@ using UnityEngine.XR.ARFoundation;
 /// for the physical environment as observed by an
 /// AR device.
 /// </summary>
+
 [RequireComponent(typeof(Light))]
 public class LightEstimation : MonoBehaviour
 {
