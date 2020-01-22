@@ -5,6 +5,7 @@ using System.IO;
 using UnityEditor;
 public class SceneSelector : MonoBehaviour
 {
+#if UNITY_EDITOR
     void Start(){
         EditorBuildSettingsScene[] allScenes = EditorBuildSettings.scenes;
         Debug.Log ("All Scenes : Length : " + allScenes.Length);
@@ -15,4 +16,5 @@ public class SceneSelector : MonoBehaviour
             Debug.Log ("Clear Path : Scene : "+path);
         }
     }
+#endif
 }
