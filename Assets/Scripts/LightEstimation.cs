@@ -95,6 +95,7 @@ public class LightEstimation : MonoBehaviour
         {
             brightness = args.lightEstimation.averageBrightness.Value;
             m_Light.intensity = brightness.Value;
+            Debug.Log("Brightness " + brightness);
         }
 
         if (args.lightEstimation.averageColorTemperature.HasValue)
